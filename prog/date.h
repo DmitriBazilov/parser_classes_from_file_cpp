@@ -15,10 +15,6 @@ class date
         date(int year, int month, int day);
 
         std::string to_string();
-        void print_date();
-    protected:
-
-    private:
 };
 
 #endif // DATE_H

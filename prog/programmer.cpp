@@ -20,18 +20,6 @@ programmer::programmer(string surname, string name, string second_name, string s
     this->number = number;
 }
 
-void programmer::print_programmer()
-{
-    std::cout << surname << "; " << name << "; " << second_name << "; " << sex << "; " << nationality << "; ";
-    birthday.print_date();
-    std::cout << graduate << "; " << number << ".\n";
-};
-
-void programmer::say()
-{
-    std::cout << "I'm Progger\n";
-};
-
 std::string programmer::to_string()
 {
     return surname + "; " + name + "; " + second_name + "; " + sex + "; " + nationality + "; " + birthday.to_string() + graduate + "; " + number + ".";

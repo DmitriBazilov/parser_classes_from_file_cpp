@@ -44,8 +44,10 @@ vector<programmer> find_need_programmers(vector<programmer> progers)
 int main()
 {
     vector<programmer> progers;
+
     ifstream fin("data.txt");
     ofstream fout("out.txt");
+
     for (string line; getline(fin, line);) {
         int pos;
         while ((pos = line.find(";")) != string::npos) {
@@ -62,8 +64,6 @@ int main()
     for (int i = 0; i < need_progers.size(); i++) {
         fout << need_progers[i].to_string() << endl;
     }
-    //programmer progger2("rahmatulin", "rama", "sosal", "muzhik", "tatar", date(2003, 10, 30), "scholar", "8999999");
-    //cout << progger2.to_string();
 
     return 0;
 }
