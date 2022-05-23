@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1653267834 source:/home/dmitrii/Documents/for_diman_friend/prog/main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+	<vector>
+	<algorithm>
+	<programmer.h>
+
+1653267916 source:/home/dmitrii/Documents/for_diman_friend/prog/programmer.cpp
+	"programmer.h"
+	"date.h"
+	<iostream>
+
+1653266631 /home/dmitrii/Documents/for_diman_friend/prog/programmer.h
+	<date.h>
+	<string>
+
+1653266631 /home/dmitrii/Documents/for_diman_friend/prog//programmer.h
+	<date.h>
+	<string>
+
+1653266654 /home/dmitrii/Documents/for_diman_friend/prog//date.h
+	<string>
+
+1653267671 source:/home/dmitrii/Documents/for_diman_friend/prog/date.cpp
+	"date.h"
+	<iostream>
+	<string>
+
+1653266654 /home/dmitrii/Documents/for_diman_friend/prog/date.h
+	<string>
+
